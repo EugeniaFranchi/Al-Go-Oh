@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fiuba.vista.Escena2Controller">
+   <children>
+      <ImageView fitHeight="344.0" fitWidth="613.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/escena2imagen.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="107.0" text="Jugador 1 :" textFill="#e0f8f8">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="172.0" text="Jugador 2 :" textFill="#f5e5e5">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button contentDisplay="TOP" layoutX="212.0" layoutY="248.0" mnemonicParsing="false" onAction="#botonSiguiente" prefHeight="48.0" prefWidth="149.0" text="Siguiente">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="texto1" layoutX="274.0" layoutY="110.0" />
+      <TextField fx:id="texto2" layoutX="274.0" layoutY="175.0" />
+      <Text layoutX="100.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label layoutX="183.0" layoutY="22.0" text="Coloque el nombre de cada jugador" textFill="#171717" />
+   </children>
+</Pane>

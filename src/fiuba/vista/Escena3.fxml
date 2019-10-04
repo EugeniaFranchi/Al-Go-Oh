@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1024.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fiuba.vista.Escena3Controller">
+   <children>
+      <ImageView fitHeight="199.0" fitWidth="454.0" layoutX="165.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../fiuba/vista/img/Tablero_de_juego_2014.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="544.0" layoutY="524.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="52.0" text="Mazo" />
+      <Button layoutX="175.0" layoutY="524.0" mnemonicParsing="false" onAction="#invocarCarta" prefHeight="68.0" prefWidth="52.0" style="-fx-background-image: \@../../img/escena1imagen.jpg;" text="Mano" />
+      <Label layoutY="587.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="154.0" text="Jugador :  1" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.9761904761904762">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="40.0" layoutY="618.0" text="Vida: 8000" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.48333333333333334" centerY="1.0" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="l1" layoutX="247.0" layoutY="425.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label text="Label" />
+      <Label layoutX="323.0" layoutY="652.0" text="Label" />
+      <ImageView fitHeight="199.0" fitWidth="454.0" layoutX="170.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../fiuba/vista/img/Tablero_de_juego_2014.png" />
+         </image>
+      </ImageView>
+      <Label layoutY="101.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="154.0" text="Jugador : 2" textOverrun="LEADING_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.9761904761904762">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="41.0" layoutY="134.0" text="Vida: 8000" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.48333333333333334" centerY="1.0" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="592.0" layoutY="606.0" mnemonicParsing="false" text="Button" />
+      <ImageView fx:id="CartaMano" fitHeight="192.0" fitWidth="133.0" layoutX="27.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

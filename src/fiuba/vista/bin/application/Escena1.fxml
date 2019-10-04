@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fiuba.vista.Escena1Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/escena1imagen.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="141.0" layoutY="333.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Creditos" />
+      <Button layoutX="141.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Exit" />
+      <Button layoutX="141.0" layoutY="300.0" mnemonicParsing="false" onAction="#apreto" prefHeight="25.0" prefWidth="119.0" text="Start" textFill="#2c2929" />
+   </children>
+</Pane>

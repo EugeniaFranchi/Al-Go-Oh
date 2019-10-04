@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fiuba.vista.Escena3Controller">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="636.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/superthumb.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="199.0" fitWidth="454.0" layoutX="101.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Tablero_de_juego_2014.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="480.0" layoutY="342.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="52.0" text="Mazo" />
+      <TextArea layoutX="68.0" layoutY="462.0" prefHeight="29.0" prefWidth="517.0" text="Colaca tus cartas en el tablero.." />
+      <Button layoutX="111.0" layoutY="342.0" mnemonicParsing="false" onAction="#invocarCarta" prefHeight="68.0" prefWidth="52.0" text="Mano" />
+      <Label layoutX="121.0" layoutY="426.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="29.0" prefWidth="103.0" text="Jugador : " textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.9761904761904762">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="352.0" layoutY="425.0" text="Vida: 8000" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.48333333333333334" centerY="1.0" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="l1" layoutX="247.0" layoutY="425.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+   </children>
+</AnchorPane>
